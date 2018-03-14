@@ -23,6 +23,7 @@
 <tr><td>lab18</td> <td>35.199.166.66</td></tr>
 <tr><td>lab19</td> <td>35.230.17.25</td></tr>
 <tr><td>lab20</td> <td>104.198.0.191</td></tr>
+<tr><td>lab21</td> <td>35.203.159.71</td></tr>
 </table>
 
 SSH key link distributed in class.
