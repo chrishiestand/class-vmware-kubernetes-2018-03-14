@@ -56,7 +56,8 @@ wordpress-668c48b9c4-z6zdc   1/1       Running   0          24s
 
 To reach the Wordpress website you need to expose the Wordpress service. In this instance a ClusterIP isn’t sufficient because you need to be able to contact it from outside the cluster.
 
-Let's use a `NodePort`. Normally you'd want to expose it via `LoadBalancer`, but since wordpress isn't well known for safety, let's keep this service behind the firewall for this lab.
+
+Let's add a load balancer:
 ```
 kubectl apply -f wordpress_svc.yaml
 ```
