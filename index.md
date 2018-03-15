@@ -37,7 +37,8 @@ SSH key link distributed in class.
 #### Day 2
 
 [lab 5](labs/5) ([manifests](labs/5/manifests.zip))  
-[lab 6](labs/6) ([manifests](labs/6/manifests.zip))
+[lab 6](labs/6) ([manifests](labs/6/manifests.zip))  
+[lab 7](https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/)
 
 Download the slides:  
 [Day 1](https://storage.googleapis.com/kistek-training/advanced-kubernetes-day-1.pdf)  

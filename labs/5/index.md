@@ -55,10 +55,10 @@ kubectl run -i -t --rm jumpserver --image=satoms/jumpserver:v1 --restart=Never
 
 NOTE: The `--restart` policy flag on the kubectl run command determines whether the command will start a Deployment (`--restart=Always`), a Job (`--restart=OnFailure`), or a bare pod (`--restart=Never`). The `-i` and `-t` flags function similarly to Docker flags to instantiate an interactive TTY in the foreground for the pod container. The `--rm` flag ensures that the pod resources are deleted when the pod container exits.
 
-Using the jumpserver let’s `curl` the `simple-api` POD on the `clusterIP`.
+Using the jumpserver let’s `curl` the `simple-api` POD on the `IP`.
 
 ```bash
-curl http://<CLUSTER-IP>:9876/info
+curl http://<IP>:9876/info
 ```
 
 You should get something like:
@@ -69,7 +69,7 @@ You should get something like:
 We can also call the /env endpoint to request the service echo all of its runtime environment variables:
 
 ```
-curl http://<CLUSTER-IP>:9876/env
+curl http://<IP>:9876/env
 ```
 
 ```json
